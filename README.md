@@ -5,7 +5,7 @@ A machine learning pipeline and interactive web dashboard that classifies movie 
 Instead of relying on heavy deep learning, this project extracts precise technical features such as cuts per min, frame rate and audio spikefrom media files to train a highly lightweight and explainable **Random Forest Classifier**.
 
 [Launch the Web App](https://Anuragism26-movie-classifier.streamlit.app)
-## 🛠️ Project Architecture
+##  Project Architecture
 ```text
 ├── data/
 │   └── dataset_features.csv          # Compiled dataset with extracted features & labels
