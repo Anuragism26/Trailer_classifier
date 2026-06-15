@@ -4,7 +4,7 @@
 A machine learning pipeline and interactive web dashboard that classifies movie trailers into genres (**Action**, **Horror**, or **Drama**) by analyzing live cinematic visual and audio footprints. 
 Instead of relying on heavy deep learning, this project extracts precise technical features such as cuts per min, frame rate and audio spikefrom media files to train a highly lightweight and explainable **Random Forest Classifier**.
 
-[Launch the Web App](https://Anuragism26-movie-classifier.streamlit.app)
+[Launch the Web App](https://trailer-genre-classifier.streamlit.app)
 ##  Project Architecture
 ```text
 ├── data/
