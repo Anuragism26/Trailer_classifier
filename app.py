@@ -25,7 +25,12 @@ if yt_url:
         opts = {
             'format': 'best[ext=mp4]/mp4', 
             'outtmpl': temp_path, 
-            'quiet': True
+            'quiet': True,
+            'extractor_args': {
+                'youtube': {
+                    'player_client': ['default', '-android_sdkless']
+                }
+            }
         }
         try:
             with yt_dlp.YoutubeDL(opts) as ydl:
