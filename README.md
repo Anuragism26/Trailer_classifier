@@ -1,4 +1,4 @@
-Markdown
+
 # Multimodal Film Trailer Genre Classifier
 
 A machine learning pipeline and interactive web dashboard that classifies movie trailers into genres (**Action**, **Horror**, or **Drama**) by analyzing live cinematic visual and audio footprints. 
